@@ -1,7 +1,7 @@
 <?php
 
-$username = 'root';
-$password = 'password';
+$username = 'db_username';
+$password = 'db_password';
 
 try {
     $conn = new PDO('mysql:host=localhost;dbname=angularcrud', $username, $password);
